@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:wght@100..900&family=Unbounded:wght@200..900&display=swap');
+
+@import "tailwindcss";
+
+/* Extra breakpoint: the tutorial's type sizes only kick in on very wide screens */
+@theme {
+  --breakpoint-3xl: 1920px;
+}
+
+/* Always apply hover styles, even if the browser reports no hover support */
+@custom-variant hover (&:hover);
+
+:root {
+  --prim-color: #14B8A6;
+  --prim-light: #14B8A663;
+  --prim-color2: #BEFF6B;
+  --white-color: #fff;
+  --black-color: #000;
+
+  --Unbounded: "Unbounded", sans-serif;
+  --Merienda: "Merienda", cursive;
+
+  --transition-regular:0.3s;
+  --transition-slow:0.6s;
+}
+
+.Unbounded {
+  font-family: var(--Unbounded);
+}
+
+.Merienda {
+  font-family: var(--Merienda);
+}
+
+body{
+  background-color: #090A0B;
+  color: var(--white-color);
+}
+
+/* Navbar */
+
+.menu-link a{
+  font-weight: 600;
+  transition: var(--transition-regular);
+}
+
+.fixed-nav{
+  animation: Anim-fixed var(--transition-slow) forwards linear;
+  box-shadow: 0 2px 10px rgba(131, 131, 131, 0.6);
+}
+
+@keyframes Anim-fixed {
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/*Hero Header*/
+
+.hero-title h1 span{
+  position: relative;
+  color: var(--prim-color2);
+}
+
+.hero-title h1 span:after{
+  content: '';
+  position: absolute;
+  top: 90%;
+  left: -10%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/title-badge1.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.hero-card img{
+  transition: var(--transition-slow);
+}
+.hero-card:hover img{
+  transform: rotateY(360deg);
+}
+.hero-card:hover h2{
+  color: var(--white-color);
+}
+
+.btns{
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btns:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 50px;
+  background-color: var(--prim-color);
+  z-index: -1;
+  transition: var(--transition-slow);
+}
+
+.btns:hover:after{
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+.btns img{
+  transition: var(--transition-slow);
+}
+.btns:hover img{
+  filter: invert(100%);
+  opacity: 0;
+  transform: translateX(50%);
+  animation: Anim-btn 0.3s 0.5s forwards linear;
+}
+
+@keyframes Anim-btn {
+  0%{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.btns2{
+  padding: 10px 20px;
+  position: relative;
+}
+.btns2:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(131, 131, 131, 1);
+  transition: var(--transition-regular);
+}
+
+.btns2:hover:after{
+  background-color: var(--white-color);
+}
+.btns2 img{
+  transition: var(--transition-slow);
+}
+.btns2:hover img{
+  transform: translateX(10px);
+}
+
+
+.play-btn i{
+  position: relative
+}
+.play-btn i:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--prim-color);
+  border-radius: 100%;
+  animation: play-btn 0.9s infinite;
+}
+
+@keyframes play-btn {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.3);
+  }
+  100%{
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/*Hero*/
+
+.hero-shape1{
+  animation: Anim-TB 5s infinite forwards linear;
+}
+
+@keyframes Anim-TB {
+  0%{
+    transform: translateY(-30px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+}
+
+.hero-shape2{
+  animation: Anim-half-rotate 2s infinite forwards linear;
+}
+
+@keyframes Anim-half-rotate {
+  0%{
+    transform: rotate(-60deg);
+  }
+  50%{
+    transform: rotate(-70deg);
+  }
+  100%{
+    transform: rotate(-60deg);
+  }
+}
+
+.hero-circle-text{
+  animation: Anim-rotate 8s infinite forwards linear;
+}
+
+@keyframes Anim-rotate {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+/* About Section*/
+
+.about-ele1{
+  animation: Anim-sort-rotate 5s infinite forwards linear;
+}
+
+@keyframes Anim-sort-rotate {
+  0%{
+    transform: rotate(50deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(50deg);
+  }
+}
+
+.about-ele2{
+  animation: Anim-sort-rotate2 5s infinite forwards linear;
+}
+
+@keyframes Anim-sort-rotate2 {
+  0%{
+    transform: rotate(-50deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(-50deg);
+  }
+}
+
+/*features*/
+
+.features{
+  box-shadow: 0 0 10px #ffffff70;
+}
+.feature-image{
+  width: 150px;
+  height: 135px;
+  object-fit: cover;
+  transform: rotate(30deg) rotateX(90deg) translateX(-50%);
+  opacity: 0;
+  transition: var(--transition-slow);
+}
+
+.feature-card:hover .feature-image{
+  transform: rotate(0);
+  opacity: 1;
+}
+
+/*Projects */
+
+.project-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background-color: var(--prim-color2);
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  border-radius: 100%;
+  opacity: 0;
+  transition: var(--transition-slow);
+}
+
+.project-image::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #14b8a5b8;
+  opacity: 0;
+  transform: scale(0);
+  transition: var(--transition-slow);
+}
+.project-card:hover .project-icon{
+  opacity: 1;
+  transform: scale(1) translate(-50%, -50%);
+}
+.project-card:hover .project-image::after{
+  opacity: 1;
+  transform: scale(1);
+}
+
+/*Spaical Care */
+.behain{
+  background-image: url(../public/pexels-karola-g-6255607.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.behain::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #14b8a5bd;
+  backdrop-filter: blur(5px);
+  z-index: -1;
+}
+
+.behain-img{
+  background-color: var(--white-color);
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Testimonial */
+
+.swiper-btn{
+  cursor: pointer;
+  transition: var(--transition-regular);
+}
+
+.swiper-btn:hover{
+  background-color: var(--black-color);
+  transform: scale(1.1);
+}
+
+.swiper-btn:hover img{
+  filter: invert(100%);
+}
+
+/*Footer*/
+footer {
+  background-image: url(../public/footer-element.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.footer-social-icon i {
+  transition: var(--transition-regular);
+}
+
+.footer-social-icon i:hover{
+  background-color: var(--prim-color);
+  border-color: transparent;
+  cursor: pointer;
+}
+
+/* Service Page */
+
+.banner-img{
+  opacity: 0.5;
+}
+
+.service-card{
+  transition: var(--transition-regular);
+  box-shadow: 0 0 10px #ffffff70;
+}
+.service-card:hover{
+  border-color: var(--prim-color2);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 28px #ffffff90;
+}
+
+.service-icon img{
+  filter: invert(100%);
+  transition: var(--transition-regular);
+}
+.service-card:hover .service-icon{
+  background-color: var(--prim-color2);
+}
+.service-card:hover .service-icon img{
+  filter: none;
+}
+
+.service-btn{
+  overflow: hidden;
+  z-index: 1;
+}
+.service-btn:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 50px;
+  background-color: var(--prim-color);
+  z-index: -1;
+  transition: var(--transition-regular);
+}
+.service-btn:hover:after{
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+
+.service-btn img{
+  transition: var(--transition-regular);
+}
+.service-btn:hover img{
+  filter: invert(100%);
+}
+
+.service-img{
+  transition: var(--transition-slow);
+}
+.service-card:hover .service-img{
+  transform: scale(1.08);
+}
+
+/* Service Details */
+
+.sidebar-card{
+  box-shadow: 0 0 10px #ffffff70;
+}
+
+.sidebar-link{
+  transition: var(--transition-regular);
+}
+.sidebar-link:hover,
+.sidebar-link.is-active{
+  background-color: var(--prim-color);
+  border-color: transparent;
+  color: var(--white-color);
+}
+
+/* Blogs */
+
+.blog-title{
+  transition: var(--transition-regular);
+}
+.blog-title:hover,
+a:hover .blog-title{
+  color: var(--prim-color);
+}
+
+.blog-img{
+  transition: var(--transition-slow);
+}
+.blog-card:hover .blog-img{
+  transform: scale(1.08);
+}
+
+.cat-plus{
+  transition: var(--transition-regular);
+}
+.category-link:hover .cat-plus{
+  background-color: var(--prim-color);
+}
+
+.category-link{
+  transition: var(--transition-regular);
+}
+.category-link:hover{
+  color: var(--prim-color);
+}
+
+.recent-post{
+  transition: var(--transition-regular);
+}
+.recent-post:hover{
+  border-color: var(--prim-color2);
+}
+
+/* Contact */
+
+.contact-card{
+  box-shadow: 0 0 10px #ffffff70;
+  transition: var(--transition-regular);
+}
+.contact-card:hover{
+  border-color: var(--prim-color2);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 28px #ffffff90;
+}
+
+/* Scroll reveal */
+
+.reveal{
+  opacity: 0;
+  translate: 0 35px;
+  transition: opacity 0.7s ease, translate 0.7s ease;
+}
+.reveal.is-visible{
+  opacity: 1;
+  translate: 0 0;
+}
+
+/* Standalone images that lift and zoom a little on hover */
+.img-zoom{
+  transition: var(--transition-slow);
+}
+.img-zoom:hover{
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px #ffffff40;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.is-visible{
+    opacity: 1;
+    translate: none;
+    transition: none;
+  }
+  .img-zoom:hover{
+    transform: none;
+  }
+}
+
+/* MQ Section */
+@media (max-width:991px) {
+  .hero-title{
+    width: 100%;
+  }
+  .hero-shape2{
+    width: 300px;
+  }
+  .about-ele1,
+  .about-ele2{
+    right: -15% !important;
+  }
+
+  .footer-btn {
+    width: 200px !important;
+    right: 25%;
+  }
+}
+@media (max-width:575px) {
+  .service-card{
+    padding: 1rem;
+  }
+  .banner-img{
+    display: none;
+  }
+  .hero-title h1{
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+  }
+  .title h1{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .hero-shape2{
+    display: none;
+  }
+  .hero-shape1{
+    width: 30%;
+    top: 0;
+  }
+}
+/* Dark, quick fill for the appointment button */
+.btns-dark:after{
+  background-color: var(--black-color);
+  transition: var(--transition-regular);
+}
+

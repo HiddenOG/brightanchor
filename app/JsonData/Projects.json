@@ -1,0 +1,178 @@
+[
+    {
+        "id": "1",
+        "tag": "Shared Living",
+        "title": "A calm common room to come home to",
+        "image": "/project1.jpg",
+        "desc": "The common room is where most of house life happens. Residents gather here for evening check-ins, weekly house meetings and the ordinary downtime that makes a place feel like home rather than a programme. Furniture is comfortable, the television is shared, and the room stays open to everyone in the house.",
+        "desc2": "House meetings run once a week in this room. Residents raise anything that affects the household, from chores and quiet hours to welcoming someone new, and decisions are made together with staff present.",
+        "desc3": "Nothing about the room is institutional. That matters more than it sounds: people who feel they are living somewhere, rather than being processed somewhere, tend to stay long enough for the work to take hold.",
+        "info": {
+            "location": "Quiet residential street, near transport",
+            "residents": "Eight residents",
+            "rooms": "Twin and private rooms",
+            "opened": "Open now"
+        },
+        "blocks": [
+            {
+                "image": "/project2.jpg",
+                "title": "The kitchen",
+                "text": "Shared and fully equipped, with residents cooking for themselves and often for each other.",
+                "bullets": [
+                    "Weekly cleaning rota, agreed by the house",
+                    "Labelled storage for each resident",
+                    "Shared meals several nights a week",
+                    "Staff on hand, not doing it for you"
+                ]
+            },
+            {
+                "image": "/project3.jpg",
+                "title": "The bedrooms",
+                "text": "Furnished rooms with bedding provided, kept quiet from late evening so everyone can sleep.",
+                "bullets": [
+                    "Twin rooms for early recovery",
+                    "Private rooms as residents progress",
+                    "Quiet hours kept by everyone",
+                    "Weekly room checks as part of the routine"
+                ]
+            }
+        ],
+        "closingTitle": "What living here is like",
+        "closing": [
+            "Days have a shape. People get up, eat, go to work or to appointments, come back, and check in. It sounds unremarkable, and that is exactly the point after a period where nothing was predictable.",
+            "Residents describe the first fortnight as strange and the first month as the moment it starts feeling like theirs. Both are normal."
+        ]
+    },
+    {
+        "id": "2",
+        "tag": "House Kitchen",
+        "title": "Shared meals and everyday routine",
+        "image": "/project2.jpg",
+        "desc": "A full kitchen that residents cook in themselves. Shopping, cooking and cleaning up are part of the week, not chores handed to staff, because the habits that hold up after you leave are the ones you practise while you are here.",
+        "desc2": "Residents share a weekly rota for cleaning and keep their own food in labelled space. Many houses eat together a few nights a week, which turns out to be one of the simplest ways people get to know each other.",
+        "desc3": "If you have not cooked for yourself in years, that is common and nobody makes a thing of it. Staff and other residents will show you, once, and then let you get on with it.",
+        "info": {
+            "location": "Ground floor, open to all residents",
+            "residents": "Shared by the whole house",
+            "rooms": "Dining space seats eight",
+            "opened": "Open now"
+        },
+        "blocks": [
+            {
+                "image": "/project1.jpg",
+                "title": "The common room",
+                "text": "Next door to the kitchen, where house meetings and most evenings happen.",
+                "bullets": [
+                    "Weekly house meeting, everyone attends",
+                    "Evening check-ins with staff",
+                    "Shared television and quiet corners",
+                    "Open to every resident, all day"
+                ]
+            },
+            {
+                "image": "/project4.jpg",
+                "title": "Private rooms",
+                "text": "Available as residents progress, with the same house structure around them.",
+                "bullets": [
+                    "A milestone residents work toward",
+                    "More independence, same house rules",
+                    "Curfews and testing continue",
+                    "Community still a few steps away"
+                ]
+            }
+        ],
+        "closingTitle": "Why the kitchen matters",
+        "closing": [
+            "More honest conversations happen over washing up than in any formal session. It is the room where someone notices you have gone quiet, or that you have not eaten properly in two days.",
+            "Cooking is also a practical skill people leave with. Residents who can feed themselves cheaply and reliably are in a much stronger position after move-on."
+        ]
+    },
+    {
+        "id": "3",
+        "tag": "Twin Rooms",
+        "title": "Quiet rooms built for rest and reset",
+        "image": "/project3.jpg",
+        "desc": "Twin rooms give residents a roommate in early recovery, which many people find steadying. Rooms are furnished, bedding is provided, and quiet hours are kept so that everyone can get the sleep that early recovery depends on.",
+        "desc2": "Rooms are inspected as part of the weekly routine. The aim is not surveillance but structure: a made bed and a tidy room are small anchors on days when not much else feels steady.",
+        "desc3": "Roommates are matched with some thought, and changed if a pairing is not working. Nobody is expected to become close friends, only to keep the room liveable for the other person.",
+        "info": {
+            "location": "First floor, street-facing",
+            "residents": "Two per room",
+            "rooms": "Furnished, bedding provided",
+            "opened": "Limited availability"
+        },
+        "blocks": [
+            {
+                "image": "/project4.jpg",
+                "title": "Moving to a private room",
+                "text": "The usual next step, worked toward with a key worker rather than handed out by time served.",
+                "bullets": [
+                    "Agreed as part of your plan",
+                    "Linked to work, family and move-on goals",
+                    "Same curfews and testing apply",
+                    "Reviewed if things slip"
+                ]
+            },
+            {
+                "image": "/project1.jpg",
+                "title": "Downstairs",
+                "text": "The common room and kitchen, a few steps away when the room gets too quiet.",
+                "bullets": [
+                    "Someone around most evenings",
+                    "House meeting once a week",
+                    "Staff reachable, not hovering",
+                    "Open to everyone in the house"
+                ]
+            }
+        ],
+        "closingTitle": "Sleep comes first",
+        "closing": [
+            "Sleep is the first thing to come back and the first thing to go when someone is struggling. Quiet hours exist because of that, and they are one of the few rules nobody argues with for long.",
+            "If sleep is not returning after a few weeks, that is something to raise with your key worker rather than wait out."
+        ]
+    },
+    {
+        "id": "4",
+        "tag": "Private Space",
+        "title": "Your own space, with people nearby",
+        "image": "/project4.jpg",
+        "desc": "As residents progress, private and semi-private rooms become available. More independence, the same house structure: curfews, check-ins and testing continue, and the community is still a few steps away when you need it.",
+        "desc2": "Moving to a private room is usually a milestone that residents work toward with their key worker, alongside employment, family contact and a plan for housing after the house.",
+        "desc3": "Independence here is deliberate practice for what comes next. You hold more of your own routine while there is still someone to notice if it starts slipping.",
+        "info": {
+            "location": "Upper floor, quieter end of the house",
+            "residents": "One per room",
+            "rooms": "Private and semi-private",
+            "opened": "By arrangement"
+        },
+        "blocks": [
+            {
+                "image": "/project3.jpg",
+                "title": "Where most people start",
+                "text": "Twin rooms in the early weeks, with a roommate who is often further along.",
+                "bullets": [
+                    "Company in the hardest fortnight",
+                    "Furnished, with bedding provided",
+                    "Quiet hours kept by the house",
+                    "Roommates changed if it is not working"
+                ]
+            },
+            {
+                "image": "/project2.jpg",
+                "title": "Still part of the house",
+                "text": "Private does not mean separate. Meals, meetings and chores stay shared.",
+                "bullets": [
+                    "House meeting attendance continues",
+                    "Chore rota still applies",
+                    "Testing and curfews unchanged",
+                    "Mentoring newer residents encouraged"
+                ]
+            }
+        ],
+        "closingTitle": "Preparing to move on",
+        "closing": [
+            "A private room is usually the last stage before independent housing. The work shifts toward deposits, tenancies, budgeting and keeping the support network that got you here.",
+            "Residents who move on keep their place at the weekly meeting. Plenty come back, which is the clearest evidence we have that the structure was worth keeping."
+        ]
+    }
+]
