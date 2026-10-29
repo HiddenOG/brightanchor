@@ -1,0 +1,450 @@
+
+
+// Used CMD
+
+npm install @iconify/react
+npm install remixicon
+npm install bootstrap-icons
+npm install swiper
+npm i react-countup
+npm install react-fast-marquee
+
+npm install remixicon react-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import 'remixicon/fonts/remixicon.css';
+
+
+// Hero Header
+
+
+Madical Care
+Trusted <span> Medical </span>  care near you, supporting <span> health </span> each day
+
+Make Appoinment
+
+
+// HERO
+
+{
+    title: "Your health our priority wellness Healing with heart",
+    image: Ficon1,
+},
+{
+    title: "A healthy tomorrow starts today Where health meets hope",
+    image: Ficon2,
+},
+{
+    title: "Your health our priority wellness Healing with heart",
+    image: Ficon3,
+},
+
+
+// About
+
+Compassionate Care Always There <span> Health </span> First
+
+Health care is a vital aspect of maintaining overall well-being, encompassing a range of services from preventive care to treatment of cuses on promoting
+
+Enhancing Lives Through Care
+
+Tomorrow's Health, Today's Care
+
+
+
+// Feature
+
+Compassionate Care Health <span style={{ fontWeight: "400" }}> Exceptional </span> Results
+
+Quality Care <br /> Exceptional Service
+
+<span className="text-3xl text-gray-400 mr-2">•</span>Your Health, Our Priority
+
+Harmony Health
+
+Healing Lives One <br /> Patient at a Time
+
+Caring for You <br /> Care for Tomorrow
+
+
+
+// Marquee
+
+Quality Care Service
+Your Wellness Priority
+Caring for You Always
+
+
+
+// WhyChoseUs
+ 
+Why Chose Us
+
+Empower Health Lives <span style={{ fontWeight: "400" }}> Expert </span> Care.
+
+The Enhanc Lives care Through Care
+
+Health care is a vital aspect of maintaining overall well-being, encompassing a range of services from preventive
+
+Tomorrow's Health <br /> Today's Care
+
+
+Complte Project
+Team Member
+Clients Reviews
+
+
+
+// Projects
+
+Latest Project
+
+Healing Lives One Patient <br /> at Time Trusted <span style={{ fontWeight: "400" }}> Results.
+
+
+// Projects Json
+
+[
+    {
+        "id": "1",
+        "tag": "Care Plus",
+        "title": "Wellness Begins with Us",
+        "image": "/project1.jpg",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
+        "desc2":"Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    },
+    {
+        "id": "2",
+        "tag": "Renew Health Center",
+        "title": "Quality health close to home",
+        "image": "/project2.jpg",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
+        "desc2":"Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    },
+    {
+        "id": "3",
+        "tag": "Wellness Oasis",
+        "title": "A healthy tomorrow starts today",
+        "image": "/project3.jpg",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
+        "desc2":"Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    },
+    {
+        "id": "3",
+        "tag": "Wellness Oasis",
+        "title": "A healthy tomorrow starts today",
+        "image": "/project3.jpg",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
+        "desc2":"Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    },
+    {
+        "id": "4",
+        "tag": "Revive Medical Care",
+        "title": "Caring for you every step of the way",
+        "image": "/project4.jpg",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
+        "desc2":"Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    },
+    {
+        "id": "5",
+        "tag": "Harmony Med",
+        "title": "Tomorrow's Health, Today's Care",
+        "image": "/project5.jpg",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
+        "desc2":"Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    },
+    {
+        "id": "6",
+        "tag": "Life Harbor",
+        "title": "Your Health, Our Priority",
+        "image": "/project6.jpg",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
+        "desc2":"Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    }
+]
+
+// SpaicalCare
+
+Your health, our priority <br /> <span style={{ fontWeight: "400" }}> The Healing </span> with heart
+
+
+Health care is a vital aspect of maintaining overall well-being, encompassing a range of services from preventive care to treatment of cuses on promoting Health care is a vital aspect of maintaining overall well-being,
+
+
+Caring for you every step of the way
+
+
+Building healthier communities
+
+Health care is a vital aspect of maintaining overall well-being, encompassing a range of services from preventive care to treatment of cuses on promoting Health care is a vital aspect
+
+
+
+
+// Testimonial
+
+
+
+Clients Testimonial
+
+
+What Our Users <br /> Are Saying
+
+Health is wealth, and in the realm of medical health, every life matters. It is a
+encompasses a wide range of
+specialties aimed at diagnosing, treating, and preventing diseases and maintaining
+overall well-being. Medical health
+for a professionals dedicate their lives to providing care
+
+
+——— Mukesh Kumer
+
+Medical services are an essential part of our lives, offering care and treatment for various health conditions
+
+// Service Json
+
+[
+    {
+        "id": "1",
+        "title": "Quality Care Service",
+        "titleImage": "/ser1.png",
+        "image": "/service-v1.jpg",
+        "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    },
+    {
+        "id": "2",
+        "title": "Your Wellness Priority",
+        "titleImage": "/ser2.png",
+        "image": "/service-v2.jpg",
+        "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    },
+    {
+        "id": "3",
+        "title": "Caring for You Always",
+        "titleImage": "/ser3.png",
+        "image": "/service-v3.jpg",
+        "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    },
+    {
+        "id": "4",
+        "title": "Quality Care Service",
+        "titleImage": "/ser4.png",
+        "image": "/service-v4.jpg",
+        "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    },
+    {
+        "id": "5",
+        "title": "Where health meets",
+        "titleImage": "/ser5.png",
+        "image": "/service-v5.jpg",
+        "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    },
+    {
+        "id": "6",
+        "title": "Center Harmony",
+        "titleImage": "/ser6.png",
+        "image": "/service-v6.jpg",
+        "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    }
+]
+
+// Service Details
+
+p-1 Medical services are an essential part of our lives, offering care and treatment for various health conditions. These services encompass a wide range of specialties, including primary care, pediatrics, cardiology
+
+p-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vero dolor nam molestiae dignissimos quis, adipisci temporibus ad consequuntur vitae.
+
+p-3 Dental operations involve various procedures performed by dentists
+
+p-4 Medical services are an essential part of our lives, offering care
+
+p-5 These services encompass a wide range of specialties, including primary care, pediatrics, cardiology
+
+p-6 Empowering Health, Empowering Lives Expert Care, Trusted Results
+
+p-7 Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services
+
+head-1 Wellness Oasis CarePoint Health the Institute Thrive Wellness Hub
+
+p-8 Health care is a vital aspect maintaining overall well-being, encompassing a range
+
+p-9 Health care is a vital aspect of maintaining overall well-being, encompassing a range of services from preventive care
+
+
+// Project Details
+
+p-1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, necessitatibus reiciendis id sapiente velit ipsa cupiditate, deserunt fugiat, quaerat commodi dolorum at iusto ex. Doloremque dolore ipsum tenetur praesentium! Sequi?
+
+p-2 Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities
+
+p-3 Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries
+
+p-4 Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services
+
+// Blog & Blog Details 
+
+[
+    {
+        "id": "1",
+        "title": "Healing Lives, One Patient at a Time Empowering Health One Patient at a Time Empowering Health",
+        "date": "23 Dec 2025",
+        "image": "/blogs-1.jpg",
+        "pere": "Medical services are an essential part of our lives, offering care and treatment for various health conditions."
+    },
+    {
+        "id": "2",
+        "title": "A healthy tomorrow starts today Where health meets hope Your partner in wellness",
+        "date": "22 Dec 2025",
+        "image": "/blogs-2.jpg",
+        "pere": "Medical services are an essential part of our lives, offering care and treatment for various health conditions."
+    },
+    {
+        "id": "3",
+        "title": "Your health, our priority Healing with heart Empowering wellness Compassionate care, always",
+        "date": "21 Dec 2025",
+        "image": "/blogs-3.jpg",
+        "pere": "Medical services are an essential part of our lives, offering care and treatment for various health conditions."
+    }
+]
+
+// Doctors Json
+
+[
+    {
+        "id": "1",
+        "name": "Dr.Alvin Eclair",
+        "type": "Neurology Expert",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+        "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+        "image": "/Doctor-1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Dr.Alan Jellybean",
+        "type": "Dental Care",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+        "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+        "image": "/Doctor-2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Dr.Dean R. Chassay",
+        "type": "Eye Expert",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+        "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+        "image": "/Doctor-3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Dr.Alan Jellybean",
+        "type": "Heart Spacialist",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+        "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+        "image": "/Doctor-4.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Dr.Nikol Jons",
+        "type": "Heart Spacialist",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+        "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+        "image": "/Doctor-5.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Dr.Harry Kane",
+        "type": "Eye Spacilist",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+        "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+        "image": "/Doctor-1.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Dr.Nathan Kyler",
+        "type": "Heart Spacialist",
+        "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+        "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+        "image": "/Doctor-2.jpg"
+    }
+]
+
+
+// Doctors Details
+
+Medical services are an essential part of our lives, offering 
+care and treatment for various health conditions. Th services 
+encompass a wide range of specialties, including primary care, 
+pediatrics, cardiology, dermatology, and more. Whether it's a 
+routine check-up or a complex surgical procedure, medical professionals 
+work tirelessly to ensure the well-being of their patients Medical 
+services are an essential part of our lives, offering care and treatment 
+for various
+
+
+Expertise :  {doctor.type}
+Education :  Dhaka Madical College,2018
+Experience : 5 Years Of Experience In Madicine
+Profession : Doctor At Dhaka Madical College,Head OF Bailogy Department
+Address :    Mirpur 10 Road 14 House 2 ,Dhaka
+Phone :      (+91) 123 456 789
+Email :      Example@site.com
+Website :    www.Examplesite.com
+
+
+Write Your Message  
+
+Schedule
+Health care is a vital aspect of maintain overall well-being, encompassing a range
+
+Saturday-Sunday
+9 Am To 5 Pm
+
+Monday-Tuesday
+1 Pm To 7 Pm
+
+Wednesday-Thusday
+2 Am To 6 Pm
+
+Friday
+Off Day
+
+
+// Pricing
+
+Where health meets hope <br /> partner in <span> wellness </span>
+
+
+Mistakes To Avoid
+
+Knew About Fonts
+
+Winning Metric for Your Startup
+
+
+Compassionate Care <br /> Always There <span> Health </span> First
+
+Team member
+Winning award
+Client review
+Complete project
+
+
+
+// Contact
+
+Address
+Mirpur,10 Road 1 House 12 Mirpur Dhaka Bangladesh
+
+
+Email
+
+Example@gmail.com
+Example2@gmail.com
+
+Phone
+
+017 5552-0127
+017458632718
+
+
+https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1904779.3713461189!2d74.45264400952149!3d21.181342774585243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ab91a3ddab%3A0xac39d3bfe1473fb8!2sVadodara%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1759757947064!5m2!1sen!2sin
